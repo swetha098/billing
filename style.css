@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    /* Form styles */
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .form {
+    width: 100%;
+    display: flex;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+   
+    .form-control label {
+    width: 100px;
+    font-weight: 700;
+    }
+    .form-control input {
+    flex: 1;
+    padding: 5px;
+    }
+    .list table button:hover {
+        background-color: #C82333;
+        color: #fff;
+        }
+    .form-control-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    }
+    .form-control-btn button {
+    padding: 7px 50px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .list table tfoot td {
+        font-weight: bold;
+        text-align: right;
+        }
+    .form-control-btn button:hover {
+    background-color: maroon;
+    }
+   
+    .list table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    .list table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .list table th,
+    .list table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    }
+    .list table th {
+    background-color: #F5F5F5;
+    font-weight: bold;
+    }
+   
+    .list table  {
+    font-size: 1.2rem;
+    color: black;
+    }
+    .list table  {
+    content: "";
+    }
+    .list table button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    }
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        }
